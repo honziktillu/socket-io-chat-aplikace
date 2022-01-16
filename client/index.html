@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket.io chat appka</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./res/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="hero is-primary">
+        <div class="hero-body" id="my-background">
+          <div class="columns">
+            <div class="column is-12">
+              <div class="container content">
+                <h1 class="title">Socket.<em>io</em> chat aplikace</h1>
+                <h3 class="subtitle">
+                    Jednoduchá ukázka jak komunikovat přes socket.io
+                </h3>
+                <a href="https://github.com/honziktillu" target="_blank" class="button is-black is-large">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Github</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-3">
+                <p class="menu-label">
+                  Connected users
+                </p>
+                <ul class="menu-list" id="users">
+                </ul>
+              </aside>
+            </div>
+            <div class="column is-9">
+            <div class="content is-medium">
+            <h3 class="title is-3">Chat</h3>
+            <div class="field">
+              <input class="input" type="text" id="input">
+              <div class="control">
+              <br>
+              <button class="button is-primary" id="send">Send</button>
+            </div>
+            <br>
+            <div class="box">
+                <article class="message is-primary">
+                <div id="chat">
+
+                </div>
+                </article>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <footer class="footer">
+  <hr>
+  <div class="columns is-mobile is-centered">
+    <div class="field is-grouped is-grouped-multiline">
+      <div class="control">
+        <div class="tags has-addons"><a class="tag is-link" href="https://github.com/BulmaTemplates/bulma-templates">Bulma Templates</a>
+        <span class="tag is-info">MIT license</span>
+        <span class="tag is-black">socket.io</span>
+        <span class="tag is-danger">education</span>
+      </div>
+    </div>
+  </div>
+  </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.0/socket.io.js" integrity="sha512-nYuHvSAhY5lFZ4ixSViOwsEKFvlxHMU2NHts1ILuJgOS6ptUmAGt/0i5czIgMOahKZ6JN84YFDA+mCdky7dD8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./res/js/main.js"></script>
+</body>
+</html>
