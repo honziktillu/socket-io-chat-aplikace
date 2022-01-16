@@ -5,7 +5,7 @@ Jak pracovat se socket.io
 
 ###### Základní informace
 - Tahle aplikace je malá ukázka jak pracovat se [socket.io](https://socket.io/)
-- Pro zájemce doporučuji navštívit oficiální stránky a prostudovat všechny koncepty počínaje eventy konče optimalizace
+- Pro zájemce doporučuji navštívit oficiální stránky a prostudovat všechny koncepty počínaje eventy konče optimalizací
 - [Živá ukázka](https://socket-io-lesson.herokuapp.com/)
 
 PS: Frajeři vědí, že po clonování `npm i` je must-have
